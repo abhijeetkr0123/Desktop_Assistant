@@ -63,7 +63,7 @@ def sendEmail(to, content):
 
 if __name__ == "__main__":
     wishMe()
-    # speak("Aryan Anshuman is a good boy")
+    # speak("Abhijeet is a good boy")
     while True:
         query = takeCommand().lower()   # Convert to lowercase letters
         if 'wikipedia' in query:
@@ -102,7 +102,7 @@ if __name__ == "__main__":
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "a.aryan@iitg.ac.in"    
+                to = "abhijeet2002@iitg.ac.in"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
