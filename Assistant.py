@@ -1,5 +1,3 @@
-# Copyright © 2021 Aryan Anshuman. All rights reserved.
-
 from types import CodeType
 import pyttsx3
 import speech_recognition as sr
